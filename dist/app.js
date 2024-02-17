@@ -35,3 +35,10 @@ $('.slider').slick({
         // instead of a settings object
     ]
 });
+gsap.from(".btn", {
+    y: 10,
+    duration: 1,
+    yoyo: true,
+   repeat:-1,
+})
+let btn = document.querySelector(".btn");

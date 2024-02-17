@@ -14,8 +14,8 @@
 </head>
 
 <body class="overflow-x-hidden">
-    <nav class="fixed w-full pt-[30px] top-0">
-        <div class="max-w-[1320px] pl-[12px] pr-[12px] ml-auto mr-auto w-full">
+    <nav class="fixed w-full py-[10px] top-0 bg-white z-[3]">
+        <div class="max-w-[1320px] px-3 ml-auto mr-auto w-full">
             <div class="flex items-center justify-between font-custom">
                 <div class="flex items-center gap-2">
                     <img src="./dist/img/nav-icon.png" alt="nav-icon">
@@ -32,16 +32,16 @@
                 </label>
                 <ul
                     class="flex items-center gap-5 max-md:flex-col max-md:w-full max-md:h-full max-md:bg-yellow-400 max-md:fixed max-md:top-0 max-md:left-[-100%] max-md:justify-center">
-                    <li class="font-custom font-normal text-[#4F5665]"><a href="">About</a></li>
-                    <li class="font-custom font-normal text-[#4F5665]"><a href="">Features</a></li>
-                    <li class="font-custom font-normal text-[#4F5665]"><a href="">Pricing</a></li>
-                    <li class="font-custom font-normal text-[#4F5665]"><a href="">Testonimal</a></li>
-                    <li class="font-custom font-normal text-[#4F5665]"><a href="">Help</a></li>
+                    <li class="font-custom font-normal text-[#4F5665] hover:text-red-600"><a href="">About</a></li>
+                    <li class="font-custom font-normal text-[#4F5665] hover:text-red-600"><a href="">Features</a></li>
+                    <li class="font-custom font-normal text-[#4F5665] hover:text-red-600"><a href="">Pricing</a></li>
+                    <li class="font-custom font-normal text-[#4F5665] hover:text-red-600"><a href="">Testonimal</a></li>
+                    <li class="font-custom font-normal text-[#4F5665] hover:text-red-600"><a href="">Help</a></li>
                 </ul>
                 <div class="flex items-center gap-4 max-md:hidden">
                     <button class="border-none font-custom font-medium">Sign In</button>
                     <button
-                        class="border rounded-[50px] px-4 py-2 border-red-700 text-red-700 font-custom font-medium hover:bg-[#F53838] hover:text-white">Sign
+                        class="border rounded-[50px] px-4 py-2 border-red-700 text-red-700 font-custom font-medium hover:bg-[#F53838] hover:text-white hover:shadow-[0px_25px_40px_0px_#F5383859] ">Sign
                         Up</button>
                 </div>
             </div>
@@ -66,11 +66,12 @@
                 <img src="./dist/img/main-section.png" alt="" class="w-full h-full">
             </div>
         </div>
-        <div class="max-w-[1320px] ml-auto mr-auto px-3 p-14 mt-[50px] shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]">
+        <div
+            class="max-w-[1320px] ml-auto mr-auto px-3 p-14 mt-[50px] shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] rounded-[10px]">
             <div class="flex flex-row flex-wrap mx-[-12px] justify-center">
                 <div
                     class="lg:w-1/3 lg:px-3 lg:border-r-[2px] lg:border-r-[#EEEFF2] max-sm:border-b-[#EEEFF2] max-sm:sm:border-b-[2px] md:w-1/2 md:px-3 w-full px-3">
-                    <div class="flex items-center justify-center gap-4">
+                    <div class="flex items-center justify-center gap-4 mr-3">
                         <span class="p-3 bg-orange-300 rounded-[50%]">
                             <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -87,7 +88,7 @@
                 </div>
                 <div
                     class=" lg:w-1/3 lg:px-3 lg:border-r-[2px] lg:border-r-[#EEEFF2] sm:border-b-[#EEEFF2] md:w-1/2 md:px-3 w-full px-3">
-                    <div class="flex items-center justify-center gap-4">
+                    <div class="flex items-center justify-center gap-4 ml-5">
                         <span class="p-3 px-[18px] py-[15px] bg-orange-300 rounded-[50%]">
                             <svg width="14" height="21" viewBox="0 0 14 21" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -126,8 +127,8 @@
                 <div class=" lg:w-1/2  lg:px-3 w-full px-3">
                     <img src="./dist/img/section-2.png" alt="section-2" class="w-full">
                 </div>
-                <div class="lg:w-1/2  lg:px-3 w-full px-3">
-                    <h1 class="font-custom text-[50px] leading-[50px] font-medium mt-5">We Provide Many Features You Can
+                <div class="lg:w-1/2  lg:px-3 w-full px-3 mt-[86px]">
+                    <h1 class="font-custom text-[35px] leading-[50px] font-medium mt-5">We Provide Many Features You Can
                         Use
                     </h1>
                     <p class="font-custom text-[16px] leading-[30px] font-normal text-[#4F5665] mt-[30px]">You can
@@ -135,7 +136,7 @@
                         features that we
                         provide with fun and have their own functions each feature.
                     </p>
-                    <div class="flex mt-[25px]">
+                    <div class="flex mt-[25px] gap-2">
                         <span>
                             <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -146,7 +147,7 @@
                         </span>
                         <p>Powerfull online protection.</p>
                     </div>
-                    <div class="flex mt-[25px]">
+                    <div class="flex mt-[25px] gap-2">
                         <span>
                             <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -157,7 +158,7 @@
                         </span>
                         <p>Internet without borders.</p>
                     </div>
-                    <div class="flex mt-[25px]">
+                    <div class="flex mt-[25px] gap-2">
                         <span>
                             <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -168,7 +169,7 @@
                         </span>
                         <p>Supercharged VPN</p>
                     </div>
-                    <div class="flex mt-[25px]">
+                    <div class="flex mt-[25px] gap-2">
                         <span>
                             <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -184,16 +185,16 @@
         </div>
     </div>
     <section>
-        <div class="max-w-[1320px] px-3 ml-auto mr-auto">
+        <div class="max-w-[1320px] px-3 ml-auto mr-auto mt-[100px]">
             <h1 class="text-[35px] font-medium font-custom leading-[50px] text-center">
                 Choose Your Plan
             </h1>
             <p class="font-custom font-normal leading-[30px] text-center text-[16px]">Let's choose the package that is
                 best for you and explore it happily and cheerfully.</p>
-            <div class="flex flex-wrap mx-[-12px] flex-row">
+            <div class="flex flex-wrap mx-[-12px] flex-row mt-[70px] items-center justify-center">
                 <div class="lg:w-1/3 lg:px-3 md:w-1/2 md:px-3 w-full px-3">
                     <div
-                        class="p-[70px] mt-7 flex items-center flex-col hover:border-[red] rounded-[10px] border-[3px]">
+                        class="p-[57px] mt-7 flex items-center flex-col hover:border-[red] rounded-[10px] border-[3px]">
                         <div class="flex items-center justify-center"><img src="./dist/img/Free.png" alt="Free"></div>
                         <h2 class="text-center font-custom leading-[30px] font-medium mt-8">Free Plan</h2>
                         <div class="flex flex-col items-start justify-center">
@@ -250,13 +251,13 @@
                         </div>
                         <p class="font-custom font-medium leading-[30px] text-center text-[25px] mt-[150px]"> Free </p>
                         <div class=" mt-5"> <button
-                                class="px-14 py-3 bg-white text-[#F53838] font-custom font-bold border border-[#F53838] rounded-[50px] hover:text-white hover:bg-[#F53838] hover:shadow[shadow-[0px_20px_20px_10px_#F53838]]">Select</button>
+                                class="px-14 py-3 bg-white text-[#F53838] font-custom font-bold border border-[#F53838] rounded-[50px] hover:text-white hover:bg-[#F53838] hover:shadow-[0px_25px_40px_0px_#F5383859]">Select</button>
                         </div>
                     </div>
                 </div>
                 <div class="lg:w-1/3 lg:px-3 md:w-1/2 md:px-3 w-full px-3">
                     <div
-                        class="p-[70px] mt-7 flex items-center flex-col hover:border-[red] rounded-[10px] border-[3px]">
+                        class="p-[57px] mt-7 flex items-center flex-col hover:border-[red] rounded-[10px] border-[3px]">
                         <div class="flex items-center justify-center"><img src="./dist/img/Free.png" alt="Free"></div>
                         <h2 class="text-center font-custom leading-[30px] font-medium mt-8">Standard Plan</h2>
                         <div class="flex flex-col items-start justify-center">
@@ -327,13 +328,13 @@
                                 class="font-custom font-normal text-[#4F5665] leading-[30px] text-center text-[25px] mt-14">/mo</span>
                         </p>
                         <div class=" mt-5"> <button
-                                class="px-14 py-3 bg-white text-[#F53838] font-custom font-bold border border-[#F53838] rounded-[50px] hover:text-white hover:bg-[#F53838] hover:shadow[shadow-[0px_20px_20px_10px_#F53838]]">Select</button>
+                                class="px-14 py-3 bg-white text-[#F53838] font-custom font-bold border border-[#F53838] rounded-[50px] hover:text-white hover:bg-[#F53838] hover:shadow-[0px_25px_40px_0px_#F5383859]">Select</button>
                         </div>
                     </div>
                 </div>
                 <div class="lg:w-1/3 lg:px-3 md:w-1/2 md:px-3 w-full px-3">
                     <div
-                        class="p-[70px] mt-7 flex items-center flex-col hover:border-[red] rounded-[10px] border-[3px]">
+                        class="p-[57px] mt-7 flex items-center flex-col hover:border-[red] rounded-[10px] border-[3px]">
                         <div class="flex items-center justify-center"><img src="./dist/img/Free.png" alt="Free"></div>
                         <h2 class="text-center font-custom leading-[30px] font-medium mt-8">Free Plan</h2>
                         <div class="flex flex-col items-start justify-center">
@@ -418,7 +419,7 @@
                                 mo</span>
                         </p>
                         <div class=" mt-5"> <button
-                                class="px-14 py-3 bg-white text-[#F53838] font-custom font-bold border border-[#F53838] rounded-[50px] hover:text-white hover:bg-[#F53838] hover:shadow[shadow-[0px_20px_20px_10px_#F53838]]">Select</button>
+                                class="px-14 py-3 bg-white text-[#F53838] font-custom font-bold border border-[#F53838] rounded-[50px] hover:text-white hover:bg-[#F53838] hover:shadow-[0px_25px_40px_0px_#F5383859]">Select</button>
                         </div>
                     </div>
                 </div>
@@ -435,27 +436,27 @@
             <div class="mt-[100px]">
                 <img src="./dist/img/globe-img.png" alt="globe-img" class="w-full">
             </div>
-            <div class="flex flex-wrap flex-row mx-[-12px] items-center">
-                <div
-                    class="xl:w-1/5 xl:px-[12px] lg:w-1/4 lg:px-[12px] md:w-1/3 md:px-[12px] sm:w-1/2 sm:px-[12px] w-full">
-                    <img src="./dist/img/netflx.png" alt="" class="w-full">
-                </div>
-                <div
-                    class="xl:w-1/5 xl:px-[12px] lg:w-1/4 lg:px-[12px] md:w-1/3 md:px-[12px] sm:w-1/2 sm:px-[12px] w-full">
-                    <img src="./dist/img/reddit.png" alt="" class="w-full">
-                </div>
-                <div
-                    class="xl:w-1/5 xl:px-[12px] lg:w-1/4 lg:px-[12px] md:w-1/3 md:px-[12px] sm:w-1/2 sm:px-[12px] w-full">
-                    <img src="./dist/img/amazon.png" alt="" class="w-full">
-                </div>
-                <div
-                    class="xl:w-1/5 xl:px-[12px] lg:w-1/4 lg:px-[12px] md:w-1/3 md:px-[12px] sm:w-1/2 sm:px-[12px] w-full">
-                    <img src="./dist/img/discord.png" alt="" class="w-full">
-                </div>
-                <div
-                    class="xl:w-1/5 xl:px-[12px] lg:w-1/4 lg:px-[12px] md:w-1/3 md:px-[12px] sm:w-1/2 sm:px-[12px] w-full">
-                    <img src="./dist/img/spotify.png" alt="" class="w-full">
-                </div>
+            <div class="flex overflow-x-auto flex-row mx-[-12px] items-center w-full mt-7 gap-5">
+                <!-- <div
+                    class="xl:w-1/5 xl:px-[12px] lg:w-1/4 lg:px-[12px] md:w-1/3 md:px-[12px] sm:w-1/2 sm:px-[12px] w-full"> -->
+                <img src="./dist/img/netflx.png" alt="netflx" class="w-full">
+                <!-- </div> -->
+                <!-- <div
+                    class="xl:w-1/5 xl:px-[12px] lg:w-1/4 lg:px-[12px] md:w-1/3 md:px-[12px] sm:w-1/2 sm:px-[12px] w-full"> -->
+                <img src="./dist/img/reddit.png" alt="reddit" class="w-full">
+                <!-- </div> -->
+                <!-- <div
+                    class="xl:w-1/5 xl:px-[12px] lg:w-1/4 lg:px-[12px] md:w-1/3 md:px-[12px] sm:w-1/2 sm:px-[12px] w-full"> -->
+                <img src="./dist/img/amazon.png" alt="amazon" class="w-full">
+                <!-- </div> -->
+                <!-- <div
+                    class="xl:w-1/5 xl:px-[12px] lg:w-1/4 lg:px-[12px] md:w-1/3 md:px-[12px] sm:w-1/2 sm:px-[12px] w-full"> -->
+                <img src="./dist/img/discord.png" alt="discord" class="w-full">
+                <!-- </div> -->
+                <!-- <div
+                    class="xl:w-1/5 xl:px-[12px] lg:w-1/4 lg:px-[12px] md:w-1/3 md:px-[12px] sm:w-1/2 sm:px-[12px] w-full"> -->
+                <img src="./dist/img/spotify.png" alt="spotify" class="w-full">
+                <!-- </div> -->
             </div>
         </div>
         <div class=" max-w-[1320px] px-3 ml-auto mr-auto flex flex-col justify-center items-center mt-[100px]">
@@ -469,9 +470,10 @@
         </div>
 
     </section>
-    <section>
-        <div class="slider overflow-x-hidden">
-            <div class="border-[3px] max-w-[400px] rounded-[20px] p-3 hover:border-red-600">
+    <section class="#FBFBFB">
+        <!-- <div class="ml-auto px-3"> -->
+        <div class="slider overflow-x-hidden mt-[60px]">
+            <div class="border-[3px] max-w-[400px] rounded-[20px] p-3 hover:border-red-600 h-full">
                 <div class="flex">
                     <img src="./dist/img/slidder-man.png" alt="slidder-man">
                     <div>
@@ -489,7 +491,7 @@
                     there have been no problems. LaslesVPN always the best”.
                 </p>
             </div>
-            <div class="border-[3px] max-w-[400px] rounded-[20px] p-3 hover:border-red-600">
+            <div class="border-[3px] max-w-[400px] rounded-[20px] p-3 hover:border-red-600 h-full">
                 <div class="flex">
                     <img src="./dist/img/slider-women.png" alt="slidder-man">
                     <div>
@@ -507,7 +509,7 @@
                     there have been no problems. LaslesVPN always the best”.
                 </p>
             </div>
-            <div class="border-[3px] max-w-[400px] rounded-[20px] p-3 hover:border-red-600">
+            <div class="border-[3px] max-w-[400px] rounded-[20px] p-3 hover:border-red-600 h-full">
                 <div class="flex">
                     <img src="./dist/img/slider-men.png" alt="slidder-man">
                     <div>
@@ -525,7 +527,7 @@
                     there have been no problems. LaslesVPN always the best”.
                 </p>
             </div>
-            <div class="border-[3px] max-w-[400px] rounded-[20px] p-3 hover:border-red-600">
+            <div class="border-[3px] max-w-[400px] rounded-[20px] p-3 hover:border-red-600 h-full">
                 <div class="flex">
                     <img src="./dist/img/slidder-man.png" alt="slidder-man">
                     <div>
@@ -543,161 +545,169 @@
                     there have been no problems. LaslesVPN always the best”.
                 </p>
             </div>
+            <!-- </div> -->
         </div>
         <!-- <div class="max-w-[1320px] mx-auto px-3"> -->
-        <div class="flex absolute right-[10%] gap-8">
-            <button class="prev border-[2px] border-red-600 rounded-[50%] p-[10px] group/link hover:bg-[red]">
-                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M23.75 13.7496H8.925L13.4625 8.29961C13.6747 8.04434 13.7768 7.71524 13.7463 7.38471C13.7158 7.05417 13.5553 6.74929 13.3 6.53711C13.0447 6.32494 12.7156 6.22286 12.3851 6.25334C12.0546 6.28381 11.7497 6.44434 11.5375 6.69961L5.2875 14.1996C5.24545 14.2593 5.20785 14.3219 5.175 14.3871C5.175 14.4496 5.175 14.4871 5.0875 14.5496C5.03084 14.6929 5.00118 14.8455 5 14.9996C5.00118 15.1537 5.03084 15.3063 5.0875 15.4496C5.0875 15.5121 5.0875 15.5496 5.175 15.6121C5.20785 15.6773 5.24545 15.74 5.2875 15.7996L11.5375 23.2996C11.655 23.4407 11.8022 23.5542 11.9686 23.632C12.1349 23.7097 12.3164 23.7499 12.5 23.7496C12.7921 23.7502 13.0751 23.6485 13.3 23.4621C13.4266 23.3572 13.5312 23.2283 13.6079 23.0829C13.6846 22.9374 13.7318 22.7783 13.7469 22.6146C13.762 22.4509 13.7447 22.2858 13.6959 22.1288C13.6471 21.9718 13.5678 21.8259 13.4625 21.6996L8.925 16.2496H23.75C24.0815 16.2496 24.3995 16.1179 24.6339 15.8835C24.8683 15.6491 25 15.3311 25 14.9996C25 14.6681 24.8683 14.3501 24.6339 14.1157C24.3995 13.8813 24.0815 13.7496 23.75 13.7496Z"
-                        fill="#F53838" class="group-hover/link:fill-white" />
-                </svg>
+        <div class="max-w-[1320px] mx-auto px-3 relative">
+            <div class="flex absolute right-0 gap-8">
+                <button class="prev border-[2px] border-red-600 rounded-[50%] p-[10px] group/link hover:bg-[red]">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M23.75 13.7496H8.925L13.4625 8.29961C13.6747 8.04434 13.7768 7.71524 13.7463 7.38471C13.7158 7.05417 13.5553 6.74929 13.3 6.53711C13.0447 6.32494 12.7156 6.22286 12.3851 6.25334C12.0546 6.28381 11.7497 6.44434 11.5375 6.69961L5.2875 14.1996C5.24545 14.2593 5.20785 14.3219 5.175 14.3871C5.175 14.4496 5.175 14.4871 5.0875 14.5496C5.03084 14.6929 5.00118 14.8455 5 14.9996C5.00118 15.1537 5.03084 15.3063 5.0875 15.4496C5.0875 15.5121 5.0875 15.5496 5.175 15.6121C5.20785 15.6773 5.24545 15.74 5.2875 15.7996L11.5375 23.2996C11.655 23.4407 11.8022 23.5542 11.9686 23.632C12.1349 23.7097 12.3164 23.7499 12.5 23.7496C12.7921 23.7502 13.0751 23.6485 13.3 23.4621C13.4266 23.3572 13.5312 23.2283 13.6079 23.0829C13.6846 22.9374 13.7318 22.7783 13.7469 22.6146C13.762 22.4509 13.7447 22.2858 13.6959 22.1288C13.6471 21.9718 13.5678 21.8259 13.4625 21.6996L8.925 16.2496H23.75C24.0815 16.2496 24.3995 16.1179 24.6339 15.8835C24.8683 15.6491 25 15.3311 25 14.9996C25 14.6681 24.8683 14.3501 24.6339 14.1157C24.3995 13.8813 24.0815 13.7496 23.75 13.7496Z"
+                            fill="#F53838" class="group-hover/link:fill-white" />
+                    </svg>
 
-            </button>
-            <button class="next border-[2px] border-red-600 rounded-[50%] p-[10px] group/link hover:bg-[red]">
-                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M6.25 13.7496H21.075L16.5375 8.29961C16.3253 8.04434 16.2232 7.71524 16.2537 7.38471C16.2842 7.05417 16.4447 6.74929 16.7 6.53711C16.9553 6.32494 17.2844 6.22286 17.6149 6.25334C17.9454 6.28381 18.2503 6.44434 18.4625 6.69961L24.7125 14.1996C24.7545 14.2593 24.7922 14.3219 24.825 14.3871C24.825 14.4496 24.825 14.4871 24.9125 14.5496C24.9692 14.6929 24.9988 14.8455 25 14.9996C24.9988 15.1537 24.9692 15.3063 24.9125 15.4496C24.9125 15.5121 24.9125 15.5496 24.825 15.6121C24.7922 15.6773 24.7545 15.74 24.7125 15.7996L18.4625 23.2996C18.345 23.4407 18.1978 23.5542 18.0314 23.632C17.8651 23.7097 17.6836 23.7499 17.5 23.7496C17.2079 23.7502 16.9249 23.6485 16.7 23.4621C16.5734 23.3572 16.4688 23.2283 16.3921 23.0829C16.3154 22.9374 16.2682 22.7783 16.2531 22.6146C16.238 22.4509 16.2553 22.2858 16.3041 22.1288C16.3529 21.9718 16.4322 21.8259 16.5375 21.6996L21.075 16.2496H6.25C5.91848 16.2496 5.60054 16.1179 5.36612 15.8835C5.13169 15.6491 5 15.3311 5 14.9996C5 14.6681 5.13169 14.3501 5.36612 14.1157C5.60054 13.8813 5.91848 13.7496 6.25 13.7496Z"
-                        fill="red" class="group-hover/link:fill-white" />
-                </svg>
-            </button>
+                </button>
+                <button class="next border-[2px] border-red-600 rounded-[50%] p-[10px] group/link hover:bg-[red]">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M6.25 13.7496H21.075L16.5375 8.29961C16.3253 8.04434 16.2232 7.71524 16.2537 7.38471C16.2842 7.05417 16.4447 6.74929 16.7 6.53711C16.9553 6.32494 17.2844 6.22286 17.6149 6.25334C17.9454 6.28381 18.2503 6.44434 18.4625 6.69961L24.7125 14.1996C24.7545 14.2593 24.7922 14.3219 24.825 14.3871C24.825 14.4496 24.825 14.4871 24.9125 14.5496C24.9692 14.6929 24.9988 14.8455 25 14.9996C24.9988 15.1537 24.9692 15.3063 24.9125 15.4496C24.9125 15.5121 24.9125 15.5496 24.825 15.6121C24.7922 15.6773 24.7545 15.74 24.7125 15.7996L18.4625 23.2996C18.345 23.4407 18.1978 23.5542 18.0314 23.632C17.8651 23.7097 17.6836 23.7499 17.5 23.7496C17.2079 23.7502 16.9249 23.6485 16.7 23.4621C16.5734 23.3572 16.4688 23.2283 16.3921 23.0829C16.3154 22.9374 16.2682 22.7783 16.2531 22.6146C16.238 22.4509 16.2553 22.2858 16.3041 22.1288C16.3529 21.9718 16.4322 21.8259 16.5375 21.6996L21.075 16.2496H6.25C5.91848 16.2496 5.60054 16.1179 5.36612 15.8835C5.13169 15.6491 5 15.3311 5 14.9996C5 14.6681 5.13169 14.3501 5.36612 14.1157C5.60054 13.8813 5.91848 13.7496 6.25 13.7496Z"
+                            fill="red" class="group-hover/link:fill-white" />
+                    </svg>
+                </button>
+            </div>
         </div>
         <!-- </div> -->
-        <div
-            class="max-w-[1320px] px-3 mt-[80px] mx-auto p-8 shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] rounded-[10px] ">
-            <div class="flex justify-between pl-3 max-md:inline">
+        <div class="max-w-[1320px] mt-[80px] mx-auto p-8 shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] rounded-[10px]">
+            <div class="flex justify-between pl-3 max-sm:inline">
                 <div class="w-1/2 flex flex-col items-start justify-center">
                     <h1
-                        class="max-w-[334px] font-custom font-medium leading-[45px] text-[35px] text-[#0B132A] max-md:w-full">
+                        class="w-full md:max-w-[360px] font-custom font-medium leading-[45px] text-[35px] text-[#0B132A] max-md:w-full">
                         Subscribe Now for Get Special Features!</h1>
                     <p class="font-custom font-normal leading-[30px] text-[16px] text-[#4F5665] max-md:w-full">Let's
                         subscribe with us
                         and find the fun.</p>
                 </div>
-                <div class="w-1/2 flex items-center justify-center"><button
-                        class="font-custom font-bold text-[16px] leading-[25px] bg-[#F53838] text-[#ffff] hover:text-[#F53838] hover:bg-[#FFF] hover:shadow-[0px_20px_20px_10px_#F53838] border-[#F53838] px-4 py-2 rounded-[10px] shadow">Subscribe
+                <div class=" w-full md:w-1/2 flex items-center justify-end max-sm:justify-start"><button
+                        class="font-custom font-bold text-[16px] leading-[25px] bg-[#F53838] text-[#ffff] hover:text-[#F53838] hover:bg-[#FFF] hover:shadow-[5px_5px_10px_0px_#F53838] border-[#F53838] px-4 py-2 rounded-[10px]">Subscribe
                         Now</button></div>
             </div>
         </div>
         <footer class="bg-[#F8F8F8] pt-[50px] pb-[90px]">
             <div class="max-w-[1320px] px-3 mx-auto ">
                 <div class="flex flex-row mx-[-12px] flex-wrap">
-                    <div class="lg:w-1/2 px-3 md:w-full">
+                    <div class="lg:w-1/2 px-3 w-full">
                         <div class="flex items-center gap-2">
                             <img src="./dist/img/nav-icon.png" alt="">
                             <h1 class="font-custom font-mediam text-[20px] leading-[23.7px]">Lasles<span
                                     class="text-[20px] font-custom font-bold leading-[23.7px]">VPN</span></h1>
                         </div>
-                        <p class=" font-custom font-normal text-[16px] leading-[30px] lg:max-w-[300px] mt-4"> <span
-                                class="font-custom font-medium text-[16px] leading-[30px] ">LaslesVPN</span>is
+                        <p class=" font-custom font-normal text-[16px] leading-[30px] lg:max-w-[316px] mt-4"> <span
+                                class="font-custom font-medium text-[16px] leading-[30px] ">LaslesVPN</span> is
                             a private
                             virtual network that has unique features and has
                             high security.</p>
                         <div class="flex gap-1 mt-4">
-                            <span>
-                                <svg width="34" height="35" viewBox="0 0 34 35" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M16.8 0.580078C7.5215 0.580078 0 8.10158 0 17.3801C0 26.6586 7.5215 34.1801 16.8 34.1801C26.0785 34.1801 33.6 26.6586 33.6 17.3801C33.6 8.10158 26.0785 0.580078 16.8 0.580078ZM20.7795 12.1896H18.2543C17.955 12.1896 17.6225 12.5833 17.6225 13.1066V14.9301H20.7813L20.3035 17.5306H17.6225V25.3373H14.6423V17.5306H11.9385V14.9301H14.6423V13.4006C14.6423 11.2061 16.1648 9.42283 18.2543 9.42283H20.7795V12.1896Z"
-                                        fill="red" />
-                                </svg>
-                            </span>
-                            <span>
-                                <svg width="35" height="35" viewBox="0 0 35 35" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M17.4001 0.580078C8.1216 0.580078 0.600098 8.10158 0.600098 17.3801C0.600098 26.6586 8.1216 34.1801 17.4001 34.1801C26.6786 34.1801 34.2001 26.6586 34.2001 17.3801C34.2001 8.10158 26.6786 0.580078 17.4001 0.580078ZM24.2339 14.3421C24.2409 14.4856 24.2426 14.6291 24.2426 14.7691C24.2426 19.1441 20.9159 24.1858 14.8294 24.1858C13.0309 24.1888 11.2698 23.6723 9.75785 22.6983C10.0151 22.7298 10.2793 22.7421 10.5471 22.7421C12.0976 22.7421 13.5239 22.2153 14.6561 21.3263C13.9661 21.3128 13.2975 21.0843 12.7435 20.6727C12.1896 20.2612 11.7778 19.687 11.5656 19.0303C12.0611 19.1246 12.5716 19.1048 13.0583 18.9726C12.3094 18.8211 11.6359 18.4153 11.1521 17.824C10.6682 17.2326 10.4038 16.4922 10.4036 15.7281V15.6878C10.8498 15.9346 11.3608 16.0851 11.9033 16.1026C11.2012 15.6352 10.7042 14.9173 10.5139 14.0956C10.3236 13.2739 10.4544 12.4105 10.8796 11.6821C11.7108 12.7041 12.7473 13.5401 13.9221 14.1361C15.0969 14.7321 16.3837 15.0747 17.6994 15.1418C17.5321 14.4319 17.6041 13.6865 17.9041 13.0217C18.2042 12.3569 18.7154 11.8098 19.3585 11.4655C20.0015 11.1213 20.7403 10.9991 21.4599 11.118C22.1796 11.2369 22.8397 11.5903 23.3379 12.1231C24.0784 11.9766 24.7886 11.7049 25.4379 11.3198C25.191 12.0866 24.6743 12.7376 23.9836 13.1521C24.6396 13.0731 25.2801 12.8967 25.8841 12.6288C25.4405 13.2936 24.8816 13.8738 24.2339 14.3421Z"
-                                        fill="red" />
-                                </svg>
+                            <a href="https://www.facebook.com/login/"><span>
+                                    <svg width="34" height="35" viewBox="0 0 34 35" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16.8 0.580078C7.5215 0.580078 0 8.10158 0 17.3801C0 26.6586 7.5215 34.1801 16.8 34.1801C26.0785 34.1801 33.6 26.6586 33.6 17.3801C33.6 8.10158 26.0785 0.580078 16.8 0.580078ZM20.7795 12.1896H18.2543C17.955 12.1896 17.6225 12.5833 17.6225 13.1066V14.9301H20.7813L20.3035 17.5306H17.6225V25.3373H14.6423V17.5306H11.9385V14.9301H14.6423V13.4006C14.6423 11.2061 16.1648 9.42283 18.2543 9.42283H20.7795V12.1896Z"
+                                            fill="red" />
+                                    </svg>
+                                </span></a>
+                            <a href="https://twitter.com/login"><span>
+                                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.4001 0.580078C8.1216 0.580078 0.600098 8.10158 0.600098 17.3801C0.600098 26.6586 8.1216 34.1801 17.4001 34.1801C26.6786 34.1801 34.2001 26.6586 34.2001 17.3801C34.2001 8.10158 26.6786 0.580078 17.4001 0.580078ZM24.2339 14.3421C24.2409 14.4856 24.2426 14.6291 24.2426 14.7691C24.2426 19.1441 20.9159 24.1858 14.8294 24.1858C13.0309 24.1888 11.2698 23.6723 9.75785 22.6983C10.0151 22.7298 10.2793 22.7421 10.5471 22.7421C12.0976 22.7421 13.5239 22.2153 14.6561 21.3263C13.9661 21.3128 13.2975 21.0843 12.7435 20.6727C12.1896 20.2612 11.7778 19.687 11.5656 19.0303C12.0611 19.1246 12.5716 19.1048 13.0583 18.9726C12.3094 18.8211 11.6359 18.4153 11.1521 17.824C10.6682 17.2326 10.4038 16.4922 10.4036 15.7281V15.6878C10.8498 15.9346 11.3608 16.0851 11.9033 16.1026C11.2012 15.6352 10.7042 14.9173 10.5139 14.0956C10.3236 13.2739 10.4544 12.4105 10.8796 11.6821C11.7108 12.7041 12.7473 13.5401 13.9221 14.1361C15.0969 14.7321 16.3837 15.0747 17.6994 15.1418C17.5321 14.4319 17.6041 13.6865 17.9041 13.0217C18.2042 12.3569 18.7154 11.8098 19.3585 11.4655C20.0015 11.1213 20.7403 10.9991 21.4599 11.118C22.1796 11.2369 22.8397 11.5903 23.3379 12.1231C24.0784 11.9766 24.7886 11.7049 25.4379 11.3198C25.191 12.0866 24.6743 12.7376 23.9836 13.1521C24.6396 13.0731 25.2801 12.8967 25.8841 12.6288C25.4405 13.2936 24.8816 13.8738 24.2339 14.3421Z"
+                                            fill="red" />
+                                    </svg>
+                                </span></a>
+                            <a href="https://www.instagram.com/accounts/login/"><span>
+                                    <svg width="34" height="35" viewBox="0 0 34 35" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M22.25 17.3801C22.25 18.7725 21.6968 20.1078 20.7123 21.0924C19.7277 22.077 18.3923 22.6301 17 22.6301C15.6076 22.6301 14.2722 22.077 13.2876 21.0924C12.3031 20.1078 11.75 18.7725 11.75 17.3801C11.75 17.0808 11.7815 16.7886 11.8357 16.5051H9.99995V23.4998C9.99995 23.9863 10.3937 24.3801 10.8802 24.3801H23.1215C23.3546 24.3796 23.5781 24.2867 23.7428 24.1216C23.9075 23.9566 24 23.733 24 23.4998V16.5051H22.1642C22.2185 16.7886 22.25 17.0808 22.25 17.3801ZM17 20.8801C17.4597 20.88 17.9149 20.7893 18.3396 20.6133C18.7643 20.4372 19.1502 20.1792 19.4752 19.8541C19.8002 19.5289 20.058 19.1429 20.2338 18.7181C20.4096 18.2933 20.5001 17.8381 20.5 17.3783C20.4998 16.9186 20.4092 16.4634 20.2331 16.0387C20.0571 15.614 19.7991 15.2281 19.474 14.9031C19.1488 14.5781 18.7628 14.3203 18.338 14.1445C17.9132 13.9687 17.4579 13.8782 16.9982 13.8783C16.0697 13.8786 15.1793 14.2476 14.523 14.9043C13.8666 15.561 13.498 16.4516 13.4982 17.3801C13.4984 18.3086 13.8675 19.1989 14.5242 19.8553C15.1809 20.5117 16.0715 20.8803 17 20.8801ZM21.2 13.7051H23.2982C23.4376 13.7051 23.5713 13.6498 23.6701 13.5514C23.7688 13.453 23.8245 13.3195 23.825 13.1801V11.0818C23.825 10.9421 23.7695 10.8081 23.6707 10.7094C23.5719 10.6106 23.4379 10.5551 23.2982 10.5551H21.2C21.0603 10.5551 20.9263 10.6106 20.8275 10.7094C20.7287 10.8081 20.6732 10.9421 20.6732 11.0818V13.1801C20.675 13.4688 20.9112 13.7051 21.2 13.7051ZM17 0.580078C12.5443 0.580078 8.27117 2.35007 5.12056 5.50068C1.96995 8.6513 0.199951 12.9244 0.199951 17.3801C0.199951 21.8357 1.96995 26.1089 5.12056 29.2595C8.27117 32.4101 12.5443 34.1801 17 34.1801C19.2062 34.1801 21.3908 33.7455 23.429 32.9013C25.4673 32.057 27.3193 30.8195 28.8794 29.2595C30.4394 27.6995 31.6769 25.8474 32.5211 23.8092C33.3654 21.7709 33.8 19.5863 33.8 17.3801C33.8 15.1739 33.3654 12.9893 32.5211 10.951C31.6769 8.91273 30.4394 7.06071 28.8794 5.50068C27.3193 3.94066 25.4673 2.70318 23.429 1.8589C21.3908 1.01462 19.2062 0.580078 17 0.580078ZM25.75 24.1858C25.75 25.2551 24.875 26.1301 23.8057 26.1301H10.1942C9.12495 26.1301 8.24995 25.2551 8.24995 24.1858V10.5743C8.24995 9.50508 9.12495 8.63008 10.1942 8.63008H23.8057C24.875 8.63008 25.75 9.50508 25.75 10.5743V24.1858Z"
+                                            fill="red" />
+                                    </svg>
 
-                            </span>
-                            <span>
-                                <svg width="34" height="35" viewBox="0 0 34 35" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M22.25 17.3801C22.25 18.7725 21.6968 20.1078 20.7123 21.0924C19.7277 22.077 18.3923 22.6301 17 22.6301C15.6076 22.6301 14.2722 22.077 13.2876 21.0924C12.3031 20.1078 11.75 18.7725 11.75 17.3801C11.75 17.0808 11.7815 16.7886 11.8357 16.5051H9.99995V23.4998C9.99995 23.9863 10.3937 24.3801 10.8802 24.3801H23.1215C23.3546 24.3796 23.5781 24.2867 23.7428 24.1216C23.9075 23.9566 24 23.733 24 23.4998V16.5051H22.1642C22.2185 16.7886 22.25 17.0808 22.25 17.3801ZM17 20.8801C17.4597 20.88 17.9149 20.7893 18.3396 20.6133C18.7643 20.4372 19.1502 20.1792 19.4752 19.8541C19.8002 19.5289 20.058 19.1429 20.2338 18.7181C20.4096 18.2933 20.5001 17.8381 20.5 17.3783C20.4998 16.9186 20.4092 16.4634 20.2331 16.0387C20.0571 15.614 19.7991 15.2281 19.474 14.9031C19.1488 14.5781 18.7628 14.3203 18.338 14.1445C17.9132 13.9687 17.4579 13.8782 16.9982 13.8783C16.0697 13.8786 15.1793 14.2476 14.523 14.9043C13.8666 15.561 13.498 16.4516 13.4982 17.3801C13.4984 18.3086 13.8675 19.1989 14.5242 19.8553C15.1809 20.5117 16.0715 20.8803 17 20.8801ZM21.2 13.7051H23.2982C23.4376 13.7051 23.5713 13.6498 23.6701 13.5514C23.7688 13.453 23.8245 13.3195 23.825 13.1801V11.0818C23.825 10.9421 23.7695 10.8081 23.6707 10.7094C23.5719 10.6106 23.4379 10.5551 23.2982 10.5551H21.2C21.0603 10.5551 20.9263 10.6106 20.8275 10.7094C20.7287 10.8081 20.6732 10.9421 20.6732 11.0818V13.1801C20.675 13.4688 20.9112 13.7051 21.2 13.7051ZM17 0.580078C12.5443 0.580078 8.27117 2.35007 5.12056 5.50068C1.96995 8.6513 0.199951 12.9244 0.199951 17.3801C0.199951 21.8357 1.96995 26.1089 5.12056 29.2595C8.27117 32.4101 12.5443 34.1801 17 34.1801C19.2062 34.1801 21.3908 33.7455 23.429 32.9013C25.4673 32.057 27.3193 30.8195 28.8794 29.2595C30.4394 27.6995 31.6769 25.8474 32.5211 23.8092C33.3654 21.7709 33.8 19.5863 33.8 17.3801C33.8 15.1739 33.3654 12.9893 32.5211 10.951C31.6769 8.91273 30.4394 7.06071 28.8794 5.50068C27.3193 3.94066 25.4673 2.70318 23.429 1.8589C21.3908 1.01462 19.2062 0.580078 17 0.580078ZM25.75 24.1858C25.75 25.2551 24.875 26.1301 23.8057 26.1301H10.1942C9.12495 26.1301 8.24995 25.2551 8.24995 24.1858V10.5743C8.24995 9.50508 9.12495 8.63008 10.1942 8.63008H23.8057C24.875 8.63008 25.75 9.50508 25.75 10.5743V24.1858Z"
-                                        fill="red" />
-                                </svg>
+                                </span></a>
 
-                            </span>
                         </div>
-                        <p class="font-custom font-medium text-[#AFB5C0] pt-[50px]">©2020LaslesVPN</p>
+                        <p class="font-custom font-medium text-[#AFB5C0] pt-[30px] pb-[40px]">©2020LaslesVPN</p>
                     </div>
-                    <div class="lg:w-1/2 px-3 md:w-full">
+                    <div class="lg:w-1/2 px-3 w-full">
                         <div class="flex flex-row mx-[-12px] flex-wrap justify-between">
-                            <div class="px-3 sm:w-1/3 w-full">
+                            <div class="px-3 sm:w-1/3 md:flex lg:justify-center">
                                 <ul>
                                     <li>
-                                        <h3 class="font-custom font-medium text-[18px] leading-[30px]">Product</h3>
+                                        <h3 class="font-custom font-medium text-[18px] leading-[30px]"> <a
+                                                href="">Product</a></h3>
                                     </li>
                                     <li
                                         class="text-[16px] font-custom font-normal leading-[30px ] text-[#4F5665]  pt-5">
-                                        Download
+                                        <a href="">Download</a>
                                     </li>
                                     <li
                                         class="text-[16px] font-custom font-normal leading-[30px ] text-[#4F5665]  pt-5">
-                                        Pricing</li>
+                                        <a href="">Pricing</a>
+                                    </li>
                                     <li class="text-[16px] font-custom font-normal leading-[30px ] text-[#4F5665] pt-5">
-                                        Locations
+                                        <a href="">Locations</a>
                                     </li>
                                     <li
                                         class="text-[16px] font-custom font-normal leading-[30px ] text-[#4F5665]  pt-5">
                                         Server</li>
                                     <li
                                         class="text-[16px] font-custom font-normal leading-[30px ] text-[#4F5665]  pt-5">
-                                        Countries
+                                        <a href="">Countries</a>
                                     </li>
                                     <li
                                         class="text-[16px] font-custom font-normal leading-[30px ] text-[#4F5665]  pt-5">
-                                        Blog</li>
+                                        <a href="">Blog</a>
+                                    </li>
                                 </ul>
 
                             </div>
-                            <div class="px-3 sm:w-1/3 w-full">
+                            <div class="px-3 sm:w-1/3 md:flex lg:justify-end">
                                 <ul>
                                     <li>
-                                        <h3 class="font-custom font-medium text-[18px] leading-[30px]">Engage</h3>
+                                        <h3 class="font-custom font-medium text-[18px] leading-[30px]"><a
+                                                href="">Engage</a></h3>
                                     </li>
                                     <li
                                         class="text-[16px] font-custom font-normal leading-[30px ] text-[#4F5665]  pt-5">
-                                        LaslesVPN
+                                        <a href="">LaslesVPN</a>
                                     </li>
                                     <li
                                         class="text-[16px] font-custom font-normal leading-[30px ] text-[#4F5665]  pt-5">
-                                        FAQ</li>
-                                    <li
-                                        class="text-[16px] font-custom font-normal leading-[30px ] text-[#4F5665]  pt-5">
-                                        Tutorials
+                                        <a href="">FAQ</a>
                                     </li>
                                     <li
                                         class="text-[16px] font-custom font-normal leading-[30px ] text-[#4F5665]  pt-5">
-                                        About Us
+                                        <a href="">Tutorials</a>
                                     </li>
                                     <li
                                         class="text-[16px] font-custom font-normal leading-[30px ] text-[#4F5665]  pt-5">
-                                        Privacy
-                                        Policy
+                                        <a href="">About Us</a>
                                     </li>
                                     <li
                                         class="text-[16px] font-custom font-normal leading-[30px ] text-[#4F5665]  pt-5">
-                                        Terms of
-                                        Service
+                                        <a href="">Privacy
+                                            Policy</a>
+                                    </li>
+                                    <li
+                                        class="text-[16px] font-custom font-normal leading-[30px ] text-[#4F5665]  pt-5">
+                                        <a href="">Terms of
+                                            Service</a>
                                     </li>
                                 </ul>
                             </div>
-                            <div class="px-3 sm:w-1/3 w-full">
+                            <div class="px-3 sm:w-1/3 md:flex lg:justify-end">
                                 <ul>
                                     <li>
-                                        <h3 class="font-custom font-medium text-[18px] leading-[30px]">Earn Money</h3>
+                                        <h3 class="font-custom font-medium text-[18px] leading-[30px]"><a href="">Earn
+                                                Money</a> </h3>
                                     </li>
                                     <li
                                         class="text-[16px] font-custom font-normal leading-[30px ] text-[#4F5665]  pt-5">
-                                        Affiliate
+                                        <a href="">Affiliate</a>
                                     </li>
                                     <li
                                         class="text-[16px] font-custom font-normal leading-[30px ] text-[#4F5665]  pt-5">
-                                        Become
-                                        Partner
+                                        <a href="">Become
+                                            Partner</a>
                                     </li>
                                 </ul>
                             </div>
@@ -707,6 +717,11 @@
             </div>
         </footer>
     </section>
+    <div
+        class="fixed max-w-[1320px] bottom-5 right-5 border-red-500 bg-yellow-100 p-2 w-[50px] h-[50px] rounded-[50%] btn">
+        <a href="" class="flex justify-center items-center"><img src="./dist/img/hand-pointer.svg" alt=""
+                class="w-full"></a>
+    </div>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const menuButton = document.getElementById('toggleButton');
@@ -723,6 +738,9 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
         integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./dist/app.js"></script>
 </body>

@@ -23,6 +23,19 @@ li.slick-active,
     border-radius: 20px;
 }
 
+li.slick-active,
+.slick-dots ul li button {
+    /* background-color: red; */
+    opacity: 0.3;
+    background: red;
+    background-color: red;
+    width: 45px;
+    height: 20px;
+    border-radius: 20px;
+    color: transparent;
+
+}
+
 .slick-dots li button {
     font-size: 0;
     line-height: 0;
@@ -34,8 +47,9 @@ li.slick-active,
     color: transparent;
     border: 0;
     outline: none;
-    background: black;
+    background: grey;
 }
+
 
 .slick-dots li button:before {
     content: '';
@@ -51,6 +65,8 @@ li.slick-active,
     color: black;
 }
 
+
+
 .slick-list {
     overflow: visible;
     padding: 0 20% 0 0;
@@ -58,13 +74,18 @@ li.slick-active,
     z-index: -1;
 }
 
+/* 
+.slick-track {
+    left: 70%;
+} */
+
 .slick-list::after {
     content: ' ';
     position: absolute;
     top: 0px;
     bottom: 0px;
     width: 4000px;
-    right: 80%;
+    right: 100%;
     background-color: white;
 }
 
@@ -79,5 +100,10 @@ li.slick-active,
 
 .slick-dots {
     position: relative;
-    left: 17%;
+    left: 3%;
 }
+
+/* 
+.slick-dots .slick-active {
+    background: red;
+} */
